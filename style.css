@@ -1,0 +1,33 @@
+@-moz-document domain("docs.google.com") {
+	#docs-chrome {
+		background: #808080;
+		color: #FFFFFF;
+	}
+	.docs-title-input {
+		background-color: #484848;
+	}
+	.docs-title-input:focus {
+		color: #FFFFFF;
+	}
+	.docs-title .docs-title-untitled,
+	.docs-title-input-label.docs-title-untitled {
+		visibility: hidden!important;
+	}
+	.goog-control-hover {
+		background-color: #484848!important;
+		border-color: rgba(0, 0, 0, 0)!important;
+		cursor: pointer;
+	}
+	.docs-title-save-label {
+		color: #000000;
+	}
+	.kix-ruler-background-inner {
+		background-color: #5A5A5A;
+	}
+	.kix-ruler-face-number {
+		color: #FFFFFF;
+	}
+	#docs-editor {
+		background: #292929;
+	}
+}
