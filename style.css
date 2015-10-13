@@ -30,16 +30,8 @@ body {
 .docs-homescreen-grid-item-time-container {
 	color: #FFF;
 }
-.gb_wb {
-	-webkit-background-size: 92px 1990px;
-	background-size: 92px 1990px;
-}
-.gbqfi {
-	background-position: 0 -1569px;
-}
-.gb_ca .gb_b,
-.gb_0b.gb_1b {
-	background-size: 92px 2460px;
+.gb_ub .gb_wb {
+    background-position: 0 2150px;
 }
 /* Document itself */
 
