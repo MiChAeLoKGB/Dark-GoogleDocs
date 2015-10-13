@@ -1,33 +1,79 @@
 @-moz-document domain("docs.google.com") {
-	#docs-chrome {
-		background: #808080;
-		color: #FFFFFF;
-	}
-	.docs-title-input {
-		background-color: #484848;
-	}
-	.docs-title-input:focus {
-		color: #FFFFFF;
-	}
-	.docs-title .docs-title-untitled,
-	.docs-title-input-label.docs-title-untitled {
-		visibility: hidden!important;
-	}
-	.goog-control-hover {
-		background-color: #484848!important;
-		border-color: rgba(0, 0, 0, 0)!important;
-		cursor: pointer;
-	}
-	.docs-title-save-label {
-		color: #000000;
-	}
-	.kix-ruler-background-inner {
-		background-color: #5A5A5A;
-	}
-	.kix-ruler-face-number {
-		color: #FFFFFF;
-	}
-	#docs-editor {
-		background: #292929;
-	}
+/* List of documents */
+
+html,
+body {
+	background-color: #292929;
+}
+.gb_ce .gb_ld {
+	background: #808080;
+}
+.docs-homescreen-grid-header,
+.docs-homescreen-list-header {
+	background: #808080;
+	color: #000;
+}
+.docs-homescreen-grid-item {
+	background-color: #808080;
+	border-bottom: 0px solid #c4c4c4;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #808080;
+	border-top: 1px solid #d3d3d3;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.07);
+	color: #000;
+}
+.docs-homescreen-docs .docs-homescreen-grid-item.goog-control-hover,
+.docs-homescreen-docs .docs-homescreen-grid-item.goog-control-focused {
+	box-shadow: none;
+	border-bottom: 0px;
+}
+.docs-homescreen-grid-item-time-container {
+	color: #FFF;
+}
+.gb_wb {
+	-webkit-background-size: 92px 1990px;
+	background-size: 92px 1990px;
+}
+.gbqfi {
+	background-position: 0 -1569px;
+}
+.gb_ca .gb_b,
+.gb_0b.gb_1b {
+	background-size: 92px 2460px;
+}
+/* Document itself */
+
+#docs-chrome {
+	background: #808080;
+	color: #FFFFFF;
+}
+.docs-title-input {
+	background-color: #484848;
+}
+.docs-title-input:focus {
+	color: #FFFFFF;
+}
+.docs-title .docs-title-untitled,
+.docs-title-input-label.docs-title-untitled {
+	visibility: hidden!important;
+}
+.goog-control-hover {
+	background-color: #484848!important;
+	border-color: rgba(0, 0, 0, 0)!important;
+	cursor: pointer;
+	color: #ffffff;
+	box-shadow: none;
+}
+.docs-title-save-label {
+	color: #000000;
+}
+.kix-ruler-background-inner {
+	background-color: #5A5A5A;
+}
+.kix-ruler-face-number {
+	color: #FFFFFF;
+}
+#docs-editor {
+	background: #292929;
+}
 }
